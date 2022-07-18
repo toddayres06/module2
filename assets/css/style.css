@@ -1,0 +1,169 @@
+.mountains {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 120%;
+    height: 220px;
+    background-image: url("mountains.jpg");
+    margin-bottom: -100px;
+    background-size: cover;
+    background-color: #C1EBAC;
+
+}
+
+.header {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 200px;
+    margin-bottom: -100px;
+    background-size: cover;
+    text-align: center;
+    background-color: #C1EBAC;
+    
+}
+
+.nav {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height:100px;
+    margin-bottom: -100px;
+    background-size: cover;
+    text-align: center;
+    background-color: #C1EBAC;
+    
+}
+
+.body {
+    background-color: #FF9778;
+    font-family: Times, Times New Roman, serif;
+}
+
+#about-section {
+    font-weight: bold;
+    background-color: #FFE478;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#creation-section {
+    font-weight: bold;
+    background-color: #FFE478;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+#contact-section {
+    font-weight: bold;
+    background-color: #FFE478;
+    text-align: center;
+}
+
+.div1 {
+    font-weight: bold;
+    background-color: #FFE478;
+    text-align: center;
+}
+
+.about-button {
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: #FFDE03;
+    border-color: #160AFF
+}
+
+.about-button:hover {
+    background-color: white;
+    color: #FFDE03;
+    
+}
+
+.creation-button {
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: #FFDE03;
+    border-color: #160AFF
+}
+
+.creation-button:hover {
+    background-color: white;
+    color: #FFDE03;
+}
+
+.contact-button {
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #FFDE03;
+    border-color: #160AFF
+    
+}
+
+.stream-div {
+    display: block;
+}
+
+.contact-button:hover {
+    background-color: white;
+    color: #FFDE03;
+}
+
+.contact-button:active {
+    opacity: 0.5;
+}
+
+#google-pic {
+    height: 300px;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 29px;
+}
+
+#google-pic:hover {
+    transform: scale(1.2);
+}
+
+#reddit-pic {
+    height: 300px;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 100px
+    
+}
+
+#reddit-pic:hover {
+    transform: scale(1.2);
+}
+
+/* @media screen and (max-width 576px) {
+    .body {
+
+    }
+
+}
+
+@media screen and (max width 576px) {
+    #creation-setion {
+        
+    }
+} */
